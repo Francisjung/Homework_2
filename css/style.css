@@ -1,11 +1,26 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
     font-size:20px;
 }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 header {
     padding: 20px;
     background-color: #0f76aa;
     color: rgb(255, 255, 255);
+    font-size: 48px;
+    overflow:hidden;
 }
 header h1{
     text-align: center;
@@ -29,17 +44,21 @@ header h1:hover span{
     display:none;
 }
 header h1:hover:before {
+    font-size: 48px;
     content: "{Francis Jung}";
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+main{
+    width: 100%;
+    display: inline-block;
+}
+section{
+    display: inline-block;
+    margin-bottom: 25px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+#About-Me{
+    position: relative;
 }
 #About-Me-Bio h1 {
     text-align: center;
@@ -53,4 +72,28 @@ header h1:hover:before {
 }
 #About-Me-Bio{
     width:50%;
+}
+
+#Featured{
+    position: relative; 
+}
+#Featured-info h1 {
+    text-align: center;
+}
+#Featured-info{
+    display:inline;
+    width:50%;
+}
+#featured-photo{
+    display:inline;
+    width:50%;
+}
+
+
+#Projects{
+    position: relative;
+}
+
+#Contact{
+    position: relative;
 }
