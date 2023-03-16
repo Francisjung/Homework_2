@@ -108,16 +108,23 @@ section{
     position: relative;
     text-align: center;
 }
-
-.Project-Preview{
-    max-width: 20%;
+#Project-Div{
+    display:flex;
+    flex-direction: row;
+}
+#Project-Div span{
+    max-width: 24%;
     margin: 2%;
+}
+.Project-Preview{
+    max-width: 100%;
+
 }
 
 #Contact{
     position: relative;
 }
 #Contact-Div{
-    position:relative;
+    margin: auto;
     text-align: center;
 }
