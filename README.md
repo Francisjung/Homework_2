@@ -1,26 +1,41 @@
-# Homework_2
-Homework assignment #2
+# <Francis Jung's Portfolio>
 
-## User Story
+## Description
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+- In this project I attempted to create a portfolio for my future work.
+- While I expected this to be simple it turned out to be more difficult than I first thought, and in completign it I now have a much better understanding of CSS and HTML
+- The page is split into a few sections; the header which holds links to other parts of the page, a main element which holds all the content for the page, and 4 setions which hold content realted to each topic.
+- This page utilizes media querries, making the elements rearrange based on the size of the display.
 
-## Acceptance Criteria
+## What I Learned
+- As mentioned above this project proved to more challeneging than I initially expected. Specifically I had lots of trouble with the CSS aspect of the project.
+- I learned that flex boxes are extremely powerful, and that I should do my best to recognize situations where using them would be advantageous.
+- As well I learned a little bit about CSS animation, though I did not have time to implement it. I plan in the future to use this specifically in the header title.
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager's needs:
+## License
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+MIT License
+
+Copyright (c) [2023] [Francis Jung]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Features
+
+This website serves as a template for my future portfolio. In future updates I will add things I have worked on to this page.
