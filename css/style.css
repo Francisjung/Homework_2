@@ -1,11 +1,13 @@
+/*Applies font family to all text*/
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/*Styling for P tags*/
 p{
     font-size:20px;
     margin:10%;
 }
-
+/*General Classes which can be applied to float elements left or right*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -15,7 +17,7 @@ p{
     float: right;
     margin-left: 25px;
 }
-
+/*Header Style*/
 header {
     padding: 20px;
     background-color: #0f76aa;
@@ -28,7 +30,7 @@ header h1{
     display: block;
     font-size: 48px;
 }
-
+/*Style for desktop header*/
 header nav{
     display:inline;
     margin-top: 48px;
@@ -41,6 +43,7 @@ header nav a {
     text-decoration: none;
     margin:9%;
 }
+/*Changes Header title from initials to name on hover*/
 header h1:hover span{
     display:none;
 }
@@ -48,7 +51,7 @@ header h1:hover:before {
     font-size: 48px;
     content: "{Francis Jung}";
 }
-
+/*Styles the main element which holds the rest of the page*/
 main{
     width: 100%;
     display: flex;
@@ -69,6 +72,8 @@ section{
     margin: 25px;
     margin-left: 50px;
 }
+/*Attempted changing these ID selectors to be less reptitive, however it caused unfroseen problems*/
+/*When changed to a single selector that applied to all 50% width elements it caused the page to break*/
 #About-Me-Photo{
     width:50%;
 }
@@ -82,6 +87,7 @@ section{
 #Featured-info h1 {
     text-align: center;
 }
+/*TODO: change to a class selector which applies to all 50% width elements*/
 #Featured-info{
     display:inline;
     width:50%;
@@ -89,6 +95,7 @@ section{
 #featured-photo{
     width:50%;
 }
+/*Styles for all buttons within the section. This could have been a generic button selector as well, but I wanted to avoid potential problems down the road*/
 .Section-button{  
     border: none;
     color: white;
@@ -102,7 +109,7 @@ section{
     display: block;
     margin:auto;
 }
-
+/*Defines layout for project section*/
 #Projects{
     display: inline;
     position: relative;
@@ -120,7 +127,7 @@ section{
     max-width: 100%;
 
 }
-
+/*Defines layout for contact section*/
 #Contact{
     position: relative;
 }
@@ -128,11 +135,25 @@ section{
     margin: auto;
     text-align: center;
 }
-@media screen and (max-width: 768px) {
-   header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-   }
-  }
+/*Changes layout for smaller screens, stacking each element from top to bottom instead of left to right*/
+@media screen and (max-width: 992px) {
+    header nav{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        #About-Me-Photo{
+            width:100%;
+        }
+        #About-Me-Bio{
+            width:100%;
+            text-align: center;
+        }
+        #Featured-info{
+            width:100%;
+        }
+        #featured-photo{
+            width:100%;
+        }
+}
   
