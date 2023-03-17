@@ -128,3 +128,11 @@ section{
     margin: auto;
     text-align: center;
 }
+@media screen and (max-width: 768px) {
+   header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+  }
+  
