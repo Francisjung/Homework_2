@@ -94,6 +94,7 @@ section{
 }
 #featured-photo{
     width:50%;
+    max-height: 500px;
 }
 /*Styles for all buttons within the section. This could have been a generic button selector as well, but I wanted to avoid potential problems down the road*/
 .Section-button{  
